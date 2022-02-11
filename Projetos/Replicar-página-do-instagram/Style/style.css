@@ -1,0 +1,52 @@
+body {
+    background-color: #fcf7f7;
+}
+
+.logado {
+    margin: 5px auto;
+}
+
+.logado .coluna1 {
+    width: 300px;
+    height: 500px;
+    margin: 3px 3px;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    right: 0px;
+    bottom: 0;
+}
+
+
+.logado .coluna2 {
+    width: 200px;
+    height: auto;
+    margin: 3px 3px;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    right: 0px;
+    bottom: 0;
+}
+
+.logoinsta {
+    width: 150px;
+}
+
+.fotoperfil {
+    width: 100px;
+    border-radius: 50%;
+}
+.celularinsta {
+    width: 200px;
+    height: 400px;
+}
+.lojaapp .appstore {
+    width: 100px;
+    position: absolute;
+}
+.lojaapp .playstore {
+    width: 100px;
+    position: absolute;
+    left: 125px;
+}
