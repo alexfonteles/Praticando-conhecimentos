@@ -54,7 +54,6 @@ body {
 .coluna2 .box3 {    
     position: absolute;
     top: 440px;
-    text-align: center;
 }
 
 .box1 .fotoperfil {
@@ -112,5 +111,9 @@ body {
     width: 140px;
     position: absolute;
     left: 150px;
+}
+.box3 p {
+    position: relative;
+    left: 80px;
 }
 
