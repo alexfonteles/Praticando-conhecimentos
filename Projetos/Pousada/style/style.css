@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.conteinerp {
+    margin: 0 auto;
+}
+.containers {
+    border: 1px solid white;
+    background-color: rgba(91, 199, 163,0.7);
+    color: rgb(255,255,255);
+    padding: 20px;
+    position: absolute;
+
+    
+}
+.containerp img {
+    width: auto;
+}
+#quartos {
+    background-color: gray ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: 1600px;
+}
+
+#quartos a {
+    text-decoration: none;
+}
+.quarto-solteiro, .quarto-casal, .quarto-familia {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+#quartos img {
+    width: 300px;    
+}
+
+#sobre img {
+    width: 100px;
+}
