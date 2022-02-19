@@ -2,31 +2,50 @@ body {
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    font-family: 'source sans pro', sans-serif;
 }
+nav {
+    width: 1024px;
+    height: 50px;
+    display: flex;
+}
+.menu1 {
+    width: 200px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.menu2 {
+    width: 200px;
+    font-size: 20px;
+    margin-left: 350px;
+    padding-top: 20px;    
+}
+.menu2 a {
+    margin-left: 10px;
+}
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
 }
-
-.conteinerp {
-    margin: 0 auto;
+span {
+    color: #566ac0;
 }
 .containers {
     border: 1px solid white;
     background-color: rgba(91, 199, 163,0.7);
     color: rgb(255,255,255);
     padding: 20px;
-    position: absolute;
-
-    
+    position: absolute;    
 }
 .containerp img {
     width: auto;
+    height: 500px;
 }
 #quartos {
-    background-color: gray ;
     display: flex;
     flex-direction: row;
     justify-content: center;
