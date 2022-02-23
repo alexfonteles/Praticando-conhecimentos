@@ -5,9 +5,10 @@ body {
     font-family: 'source sans pro', sans-serif;
 }
 nav {
-    width: 1024px;
+    width: 864px;
     height: 50px;
     display: flex;
+    justify-content: center;
 }
 .menu1 {
     width: 200px;
