@@ -2,19 +2,29 @@
     margin: 0;
     padding: 0;
 }
-
+/* Primeiro container*/
 header {
     background-color: #228664;
+    margin: 0 auto;
+    width: 480px;
     display: flex;
     margin-bottom: 1px;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 header img{
     width: 100px;
+    
 }
-/* seção de informações de perfil/página fixa */
+
+/* Dois containers */
 section{
     background-color: #228664;
+    width: 480px;
+    margin: 0 auto;
 }
+/* segundo container*/
 .inf-perfil{
     padding-top: 20px;
     padding-bottom: 5px;
@@ -23,6 +33,10 @@ section{
 }
 .inf-perfil img{
     width: 25px;
+    padding-left: 10px;
+}
+span {
+    font-weight: bold;
 }
 .foto-perfil img{
     width: 50px;
@@ -32,18 +46,50 @@ section{
     display: flex;
     margin-left: 200px;
 }
-.carteira{
+
+/* Terceiro container*/
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container3 .extrato a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 5px 20px;
+    color: #1F6F54;
+
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.carteira-saldo{
     padding-top: 10px;
+    padding-left: 10px;
 }
 .carteira-mov{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;    
+}
+.saldo-olho{
+    font-weight: bold;
+}
+.saldo-olho img{
+    width: 25px;
 }
 .carteira-mov div{
     background-color: #1F6F54;
     width: 100px;
-    height: 100px;
+    height: 75px;
     margin: 20px;
 
+}
+.box {
+    text-align: left;
+    padding: 10px;
+    color: #fff;
+}
+.box img {
+    width: 25px;
 }
