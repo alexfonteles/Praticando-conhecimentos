@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #228664;
+    display: flex;
+    margin-bottom: 1px;
+}
+header img{
+    width: 100px;
+}
+/* seção de informações de perfil/página fixa */
+section{
+    background-color: #228664;
+}
+.inf-perfil{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.inf-perfil img{
+    width: 25px;
+}
+.foto-perfil img{
+    width: 50px;
+    margin-right: 10px;
+}
+.opcao-perfil {
+    display: flex;
+    margin-left: 200px;
+}
+.carteira{
+    padding-top: 10px;
+}
+.carteira-mov{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.carteira-mov div{
+    background-color: #1F6F54;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+}
