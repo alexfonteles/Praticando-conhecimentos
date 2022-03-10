@@ -16,6 +16,10 @@ header {
 .menu1 {
     font-size: 30px;
 }
+.menu1 a {
+    text-decoration: none;
+    color: #0e0d0d;
+}
 .menu1 span {
     color: rgb(0,0,255);
 }
@@ -76,15 +80,10 @@ section {
     justify-content: space-around;
     
 }
-#quartos .quartos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+.quartos img {
     width: 400px;
-    border-bottom: 1px solid rgb(0,0,0);
-}
-#quartos img {
-    width: 400px;
+    height: 248.75px;
 }
 
 .quartos a{
@@ -125,18 +124,29 @@ height: 70px;
 /*****Inicío do rodapé******/
 footer {
     background-color: rgb(17, 68, 26);
-    height: 200px;
+    height: 150px;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;        
+    justify-content: center;
+    padding-top: 20px;      
+     
 }
 .endereço .telefone .reserva .copyright {
     width: 400px;
+    
     margin-left: 20px;
 }
 .contato {
     width: 250px;
     margin-left: 20px;
+}
+.rodape{
+    margin-left: 30px;
+    display: flex;
+}
+.rodape .imgbx {
+    margin-right: 10px;
 }
 .rodape p {
     color:#ffffff
@@ -146,4 +156,34 @@ footer {
     text-decoration: none;
    
 }
+.copyright {
+    border-top: 1px solid #0e0d0d;
+    
+}
 /*Fim do rodapé*/
+
+/*Página QUARTOS*/
+#solteiro, #casal, #familia {
+    display: flex;
+}
+.informacao {
+display: flex;
+justify-content: center;
+}
+.informacao ul li {
+    margin-left: 100px;
+}
+
+.quartos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    border-bottom: 1px solid rgb(0,0,0);
+}
+#solteiro, #casal, #familia {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+/* FimPágina QUARTOS*/
