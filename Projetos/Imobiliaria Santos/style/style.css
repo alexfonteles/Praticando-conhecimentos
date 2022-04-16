@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #a1e8ea;
+}
+.header img{
+    width: 150px;
+}
+#sobre img{
+    padding: 10px;
+}
+.casa img{
+    display: block;
+    margin: 0px auto;
+    width: 400px;
+}
+#sobre span{
+    color:blue
+}
