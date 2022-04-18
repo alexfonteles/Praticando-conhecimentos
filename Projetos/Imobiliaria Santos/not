@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px){
+    body{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;;
+    }
+    li{
+        font-size: 12px;
+    }
+    .header{
+        background-color: #a1e8ea;
+        width: 320px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .header img{
+        width: 100px;
+    }
+    .header a{
+        margin: 0 5px;
+    }
+    .casa img{
+        width: 100%;
+    }
+    #sobre{
+        width: 320px;
+        text-align: center;
+    }
+    #sobre img{
+        width: 200px;
+    }
+    #sobre p{
+        text-align: justify; 
+    }
+    #servicos{
+        width: 100vh;
+        text-align: justify;
+        background-color: blue;
+        color: #fff;
+    }
+    #corretores{
+        width: 320px;
+        text-align: center;
+    }
+    iframe{
+        width: 320px;
+    }
+    #corretores img{
+        width: 200px;
+        text-align: center;
+    }
+    #contato{
+        width: 320px;
+        text-align: center;
+        background-color: blue;
+        color: #fff;
+    }
+    .lista-contato a{
+        color: blue;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 481px){
+    body{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;;
+    }
+    li{
+        font-size: 12px;
+    }
+    .header{
+        background-color: #a1e8ea;
+        width: 320px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .header img{
+        width: 100px;
+    }
+    .header a{
+        margin: 0 5px;
+    }
+    .casa img{
+        width: 100%;
+    }
+    #sobre{
+        width: 320px;
+        text-align: center;
+    }
+    #sobre img{
+        width: 200px;
+    }
+    #sobre p{
+        text-align: justify; 
+    }
+    #servicos{
+        width: 320px;
+        text-align: justify;
+        background-color: blue;
+        color: #fff;
+    }
+    #corretores{
+        width: 320px;
+        text-align: center;
+    }
+    iframe{
+        width: 320px;
+    }
+    #corretores img{
+        width: 200px;
+        text-align: center;
+    }
+    #contato{
+        width: 320px;
+        text-align: center;
+        background-color: blue;
+        color: #fff;
+    }
+    .lista-contato a{
+        color: blue;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 769px){
+    body{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;;
+    }
+    li{
+        font-size: 12px;
+    }
+    .header{
+        background-color: #a1e8ea;
+        width: 320px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .header img{
+        width: 100px;
+    }
+    .header a{
+        margin: 0 5px;
+    }
+    .casa img{
+        width: 100%;
+    }
+    #sobre{
+        width: 320px;
+        text-align: center;
+    }
+    #sobre img{
+        width: 200px;
+    }
+    #sobre p{
+        text-align: justify; 
+    }
+    #servicos{
+        width: 320px;
+        text-align: justify;
+        background-color: blue;
+        color: #fff;
+    }
+    #corretores{
+        width: 320px;
+        text-align: center;
+    }
+    iframe{
+        width: 320px;
+    }
+    #corretores img{
+        width: 200px;
+        text-align: center;
+    }
+    #contato{
+        width: 320px;
+        text-align: center;
+        background-color: blue;
+        color: #fff;
+    }
+    .lista-contato a{
+        color: blue;
+        background-color: #fff;
+    }
+}
+

@@ -1,23 +1,60 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-.header {
-    text-align: center;
-    padding-bottom: 30px;
-    background-color: #a1e8ea;
-}
-.header img{
-    width: 150px;
-}
-#sobre img{
-    padding: 10px;
-}
-.casa img{
-    display: block;
-    margin: 0px auto;
-    width: 400px;
-}
-#sobre span{
-    color:blue
-}
+    body{
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 768px;
+
+    } 
+    .header{
+        background-color: #a1e8ea;
+        padding-bottom: 30px;
+    }
+    .header img{
+        width: 150px;
+    }
+    .casa{
+        padding: 20px;
+    }
+    .casa img{
+        width: 100%;
+        
+    }
+    #sobre{
+        padding: 20px;
+    }
+    #sobre img{
+        width: 50vh;
+    }
+    #servicos{        
+        background-color: blue;
+        color: #fff;
+        padding: 20px;
+        
+    }
+    #corretores{
+        padding: 20px;
+    }
+    #corretores img{
+        width: 50vh;
+    }
+    iframe{
+        width: 100vh
+    }
+    #contato{
+        background-color: blue;
+        padding: 20px;
+    }
+    .footer{
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+    }
+    .footer span{
+        color: rgb(236, 248, 7);
+        font-weight: bold;
+    }
+    .lista-contato a{
+        color: blue;
+        background-color: #fff;
+        
+    }
