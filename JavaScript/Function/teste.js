@@ -1,0 +1,10 @@
+
+var listaDeGanhos = [10, 30, -10, -5, -1, 40];
+var totalNegativos = 0;
+
+for(var i = 0; i < listaDeGanhos.length; i++){
+if (listaDeGanhos[i] < 0) {
+    totalNegativos += listaDeGanhos[i]
+    console.log(totalNegativos.length)
+}
+}
