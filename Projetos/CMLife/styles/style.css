@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+div{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+        /* CABEÇALHO */
+header{
+    background-color: rgb(39, 184, 184);
+}
+.cabecalho{
+    max-width: 1024px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+}
+.cabecalho a {
+    text-decoration: none;
+    color: #fff;
+
+    margin: 0 10px;
+}
+.cabecalho a:hover {
+    text-decoration: none;
+    color: rgb(83, 75, 75);
+}
+.links-topo{
+
+}
+
+        /* ABERTURA */
+.abertura{
+    background-image: url(/Projetos/CMLife/assets/recepcao.png);
+    background-size: cover;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+
+    height: 500px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+        /* SOBRE */
+.sobre-nos{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.diferencial-clinica{
+    display: flex;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.diferencial-clinica h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+        /* ESPECIALIDADES */
+.descricao-especialidades{
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.especialidades-medica{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.especialidades-medica figure{
+    margin: 10px;
+
+    box-shadow: 10px 5px 5px rgba(23, 22, 22, .50);;
+}
+.especialidades-medica figure img{
+    max-width: 300px;
+}
+.historico{
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.historico a{
+    text-decoration: none;
+    background-color: aqua;
+    color: #fff;
+    font-size: 20px;
+
+    padding: 10px;
+}
+
+        /* CONTATO */
+#contato{
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contatos, .contatos p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+        /* RODAPE */
+footer{
+    text-align: center;
+    background-color: rgb(39, 113, 113);
+}
+.rodape p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    
