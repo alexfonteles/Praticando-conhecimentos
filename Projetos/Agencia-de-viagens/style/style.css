@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #80808029;
+    font-family: raleway;
+}
+
+/* CABECALHO */
+header{
+    width: 100%;
+    height: 55px;
+    display: flex;
+
+}
+.box-center{
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+}
+.cabecalho img{
+    width: 32px;
+    height: 32px;
+}
+
+/* FORMULARIO */
+.secao-um{
+    background: url(/Projetos/Agencia-de-viagens/assets/imagens/bahia.jpg);
+    background-size: cover;
+
+    width: 100%;
+    height: auto;
+}
+.secao-um .formulario{
+    height: auto;
+    padding: 50px;
+}
+.titulo-formulario{
+    background-color: #5d15d1;
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-formulario h2{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+.icone{
+    width: 20px;
+    height: 20px;    
+}
+.conteudo-formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    box-sizing: border-box;
+}
+.conteudo-formulario h3{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+.conteudo-formulario label{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.conteudo-formulario .input{
+    height: 32px;
+    width: 100%;
+
+    padding: 0 5px;
+    margin: 5px 0;
+}
+.conteudo-formulario select{
+    padding: 0 3px;
+    margin: 10px 10px 10px 0;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5px 0;
+}
+.flexbox-item{
+    width: 48%;
+}
+.formulario button{
+    background-color: rgb(183, 57, 153);
+}
+.grupo{
+    display: flex;
+}
+.preferencias-hospedagem label, .infantil label{
+    margin-right: 15px;
+}
+h4, input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* OFERTAS */
+.destinos{
+    width: 1024px;
+    height: 500px;
+
+    display: flex;
+}
+.destinos .destino-destaque img{
+    width: 50%;
+    height: 100%;
+}
+.destinos-outros{
+    display: flex;
+    flex-wrap: wrap;
+}
+    /* Imagens destinos */
+.rio-de-janeiro{
+    background-image: url(/Projetos/Agencia-de-viagens/assets/imagens/niteroi.jpg);
+}
+.manaus{
+    background-image: url(/Projetos/Agencia-de-viagens/assets/imagens/manaus.jpg);
+}
+.saopaulo{
+    background-image: url(/Projetos/Agencia-de-viagens/assets/imagens/saopaulo.jpg);
+}
+.niteroi{
+    background-image: url(/Projetos/Agencia-de-viagens/assets/imagens/niteroi.jpg);
+}
+.maranhao{
+    background-image: url(/Projetos/Agencia-de-viagens/assets/imagens/maranhao.jpg);
+}
+
+
+/* RODAPE */
+footer{
+    background-color: rgb(67, 35, 126);
+}
